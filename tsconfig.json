@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     "app/lib/placeholder-data.js",
     "scripts/seed.js"
-, "app/layout.tsx", "app/page.tsx", "app/ui/fonts.js"  ],
+, "app/layout.tsx", "app/page.tsx", "app/ui/fonts.ts"  ],
   "exclude": ["node_modules"]
 }
