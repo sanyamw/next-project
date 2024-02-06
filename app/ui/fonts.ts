@@ -1,8 +1,7 @@
 import { Inter, Lusitana } from 'next/font/google';
 
 type FontConfig = {
-  subsets: string[];
-  weight?: string[];
+  [key: string]: any; // A more generic approach, allows any properties
 };
 
 export const inter: FontConfig = Inter({ subsets: ['latin'] });
